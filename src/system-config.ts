@@ -27,6 +27,7 @@ const barrels:string[] = [
 
 	// Thirdparty barrels.
 	'rxjs',
+	'@netlogix/jsonapi',
 
 	// App specific barrels.
 	'app',
@@ -46,6 +47,7 @@ declare var System:any;
 System.config({
 	map: {
 		'@angular': 'vendor/@angular',
+		'@netlogix': 'vendor/@netlogix',
 		'rxjs': 'vendor/rxjs',
 		'main': 'main.js'
 	},
