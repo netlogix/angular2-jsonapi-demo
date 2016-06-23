@@ -1,0 +1,21 @@
+{
+	"data": {
+		"type": "demo/item",
+		"id": "first",
+		"attributes": {
+			"title": "one cool item",
+			"price": 1234
+		},
+		"links": {
+			"self": "/demo-data/demo-items/first.json"
+		},
+		"relationships": {
+			"buyThoseAsWell": {
+				"links": {
+					"related": "/demo-data/demo-items/first/buyThoseAsWell.json",
+					"self": "/demo-data/demo-items/first/buyThoseAsWell.relationships.json"
+				}
+			}
+		}
+	}
+}

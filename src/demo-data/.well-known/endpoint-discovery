@@ -1,0 +1,15 @@
+{
+	"meta": {
+		"description": "This file is manually generated and provides purely manually generated items."
+	},
+	"links": [
+		{
+			"href": "/demo-data/demo-items.json",
+			"meta": {
+				"type": "resourceUri",
+				"resourceType": "demo/item",
+				"packageKey": "Netlogix.JsonApiOrg.DemoPackage"
+			}
+		}
+	]
+}

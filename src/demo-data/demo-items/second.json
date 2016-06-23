@@ -1,0 +1,21 @@
+{
+	"data": {
+		"type": "demo/item",
+		"id": "second",
+		"attributes": {
+			"title": "another cool item",
+			"price": 56789
+		},
+		"links": {
+			"self": "/demo-data/demo-items/second.json"
+		},
+		"relationships": {
+			"buyThoseAsWell": {
+				"links": {
+					"related": "/demo-data/demo-items/second/buyThoseAsWell.json",
+					"self": "/demo-data/demo-items/second/buyThoseAsWell.relationships.json"
+				}
+			}
+		}
+	}
+}
