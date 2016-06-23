@@ -1,14 +1,18 @@
-# Editor configuration, see http://editorconfig.org
+# The IDE is assumed to use PSR-2 for PHP files.
+
 root = true
 
 [*]
-charset = utf-8
 indent_style = space
-indent_size = 2
+indent_size = 4
+tab_width = 4
 end_of_line = lf
-insert_final_newline = true
+charset = utf-8
 trim_trailing_whitespace = true
+insert_final_newline = false
 
-[*.md]
-max_line_length = 0
-trim_trailing_whitespace = false
+[.sh]
+indent_style = tab
+
+[**Netlogix**]
+indent_style = tab
